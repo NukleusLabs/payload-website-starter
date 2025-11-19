@@ -97,4 +97,8 @@ export default buildConfig({
     },
     tasks: [],
   },
+  localization: {
+    locales: ['en-US', 'zh-CN', 'ms-MY'], // required
+    defaultLocale: 'en-US', // required
+  },
 })
